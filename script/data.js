@@ -1,7 +1,7 @@
 const data = [{
     id:1,
     src:"https://homepagemodel.glitch.me/",
-    log:"../img/coolcat.JPG",
+    log:"../img/coolcat.png",
     mainsite:"https://www.thejazzloft.org/",
     prom1:"https://www.bilibili.com/",
     promim:"../img/bili.JPG",
