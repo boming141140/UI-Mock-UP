@@ -37,18 +37,22 @@ const buildWB = web => {
     topr.getElementsByTagName("button")[0].style.backgroundColor = "#701414";
     topr.getElementsByTagName("button")[0].style.border = "none";
     topr.getElementsByTagName("img")[0].setAttribute("src", web.log)
+    topr.getElementsByTagName("img")[0].style.width = "100%";
     topr.getElementsByTagName("a")[0].setAttribute("href",web.mainsite);
 
     topl.getElementsByTagName("button")[0].style.backgroundColor = "#701414";
     topl.getElementsByTagName("button")[0].style.border = "none";
+    topl.getElementsByTagName("button")[0].style.width = "100%";
     topl.getElementsByTagName("img")[0].setAttribute("src", web.promIM)
+    topl.getElementsByTagName("img")[0].style.width = "100%";
     topl.getElementsByTagName("a")[0].setAttribute("href",web.prom1);
 
     lefto.getElementsByTagName("button")[0].style.backgroundColor = "#701414";
     lefto.getElementsByTagName("button")[0].style.border = "none";
+    lefto.getElementsByTagName("button")[0].style.height = "100%";
     lefto.getElementsByTagName("img")[0].setAttribute("src", web.prom2IM);
-    lefto.getElementsByTagName("img")[0].style.width = "500px";
-    lefto.getElementsByTagName("img")[0].style.height = "1040px";
+    lefto.getElementsByTagName("img")[0].style.height = "100%";
+    lefto.getElementsByTagName("img")[0].style.width = "100%";
     lefto.getElementsByTagName("a")[0].setAttribute("href",web.prom2);
 
     righto.getElementsByTagName("iframe")[0].setAttribute("src",web.src);
