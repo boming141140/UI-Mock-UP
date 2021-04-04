@@ -43,14 +43,14 @@ const buildWB = web => {
     topl.getElementsByTagName("button")[0].style.backgroundColor = "#701414";
     topl.getElementsByTagName("button")[0].style.border = "none";
     topl.getElementsByTagName("button")[0].style.width = "100%";
-    topl.getElementsByTagName("img")[0].setAttribute("src", web.promIM)
+    topl.getElementsByTagName("img")[0].setAttribute("src", web.promim)
     topl.getElementsByTagName("img")[0].style.width = "100%";
     topl.getElementsByTagName("a")[0].setAttribute("href",web.prom1);
 
     lefto.getElementsByTagName("button")[0].style.backgroundColor = "#701414";
     lefto.getElementsByTagName("button")[0].style.border = "none";
     lefto.getElementsByTagName("button")[0].style.height = "100%";
-    lefto.getElementsByTagName("img")[0].setAttribute("src", web.prom2IM);
+    lefto.getElementsByTagName("img")[0].setAttribute("src", web.prom2im);
     lefto.getElementsByTagName("img")[0].style.height = "100%";
     lefto.getElementsByTagName("img")[0].style.width = "100%";
     lefto.getElementsByTagName("a")[0].setAttribute("href",web.prom2);
