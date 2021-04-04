@@ -13,9 +13,9 @@ const buildWB = web => {
     const img = document.createElement("img");
     const img1 = document.createElement("img");
     const img2 = document.createElement("img");
-    const btn = document.createElement("BUTTON");
-    const btn1 = document.createElement("BUTTON");
-    const btn2 = document.createElement("BUTTON");
+    const btn = document.createElement("button");
+    const btn1 = document.createElement("button");
+    const btn2 = document.createElement("button");
     let ifr = document.createElement("iframe");
     
     /*top left */
