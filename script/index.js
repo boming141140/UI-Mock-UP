@@ -69,7 +69,6 @@ const buildWB = web => {
     righto.getElementsByTagName("button")[0].style.backgroundColor = "#F4CAC2";
     righto.getElementsByTagName("button")[0].innerHTML = "HomeWeb";
     righto.getElementsByTagName("button")[0].style.borderRadius = "12px";
-    righto.getElementsByTagName("button")[0].style.
     righto.getElementsByTagName("button")[0].style.fontSize = "105%";
     righto.getElementsByTagName("button")[0].style.cursor = "pointer";
     righto.getElementsByTagName("a")[0].setAttribute("href", web.src);
